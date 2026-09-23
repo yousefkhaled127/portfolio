@@ -347,7 +347,7 @@ onMounted(() => {
 /* ── Stats ── */
 const stats = [
   { value: '1+',  label: 'Years Exp.' },
-  { value: '2+',  label: 'Projects' },
+  { value: '5+',  label: 'Projects' },
   { value: '1',   label: 'Company' },
   { value: '2027', label: 'Graduation' },
 ]
@@ -387,11 +387,38 @@ const projects = [
   {
     title: 'Scraapy — E-Commerce Platform',
     description: 'Full e-commerce platform built at Bahiz Technology. Includes product pages, cart, search, checkout flows, order management, and Arabic/English localization with RTL/LTR support.',
+    tags: ['Vue 3', 'Nuxt.js', 'Pinia', 'Bootstrap', 'REST APIs'],
+    emoji: '🛍️',
+    gradient: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+    live: 'https://www.scraapypro.sa/',
+    github: '',
+  },
+  {
+    title: 'AdminPro — Analytics Dashboard',
+    description: 'A full-featured admin dashboard with real-time KPIs (revenue, users, orders, conversion), interactive charts, activity feed, top products table, and a user management panel with roles & statuses.',
+    tags: ['Vue 3', 'Nuxt.js', 'Chart.js', 'Bootstrap', 'REST APIs'],
+    emoji: '📊',
+    gradient: 'linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)',
+    live: 'https://dashboard-onxi.vercel.app/',
+    github: 'https://github.com/yousefkhaled127/Dashboard',
+  },
+  {
+    title: 'DashFlow — SaaS Landing Page',
+    description: 'A modern SaaS landing page for a business analytics platform. Includes hero section with live dashboard preview, feature cards, pricing tiers, testimonials, FAQ, and a trusted-by brands section.',
+    tags: ['Nuxt.js', 'Vue 3', 'CSS3', 'Responsive Design'],
+    emoji: '🚀',
+    gradient: 'linear-gradient(135deg, #141e30 0%, #243b55 100%)',
+    live: 'https://dash-flow-fvct.vercel.app/',
+    github: 'https://github.com/yousefkhaled127/DashFlow',
+  },
+  {
+    title: 'Scraapy — E-Commerce Platform',
+    description: 'Full e-commerce platform built at Bahiz Technology. Includes product pages, cart, search, checkout flows, order management, and Arabic/English localization with RTL/LTR support.',
     tags: ['Nuxt.js', 'Vue 3', 'Pinia', 'Bootstrap', 'REST APIs', 'Axios'],
     emoji: '🛒',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     live: 'https://www.scraapypro.sa/',
-    github: 'https://github.com/yousefkhaled127',
+    github: 'https://github.com/yousefkhaled127/E-commerce',
   },
   {
     title: 'Raw Rentals',
@@ -400,7 +427,7 @@ const projects = [
     emoji: '🏠',
     gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
     live: 'https://rawrentalesnzuh.vercel.app/ar',
-    github: 'https://github.com/yousefkhaled127',
+    github: 'https://github.com/yousefkhaled127/raw-rentales',
   },
 ]
 
