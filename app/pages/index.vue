@@ -386,8 +386,10 @@ const filteredSkills = computed(() =>
 const projects = [
   {
     title: 'Scraapy — E-Commerce Platform',
-    description: 'Full e-commerce platform built at Bahiz Technology. Includes product pages, cart, search, checkout flows, order management, and Arabic/English localization with RTL/LTR support.',
-    tags: ['Vue 3', 'Nuxt.js', 'Pinia', 'Bootstrap', 'REST APIs'],
+        description: 'Full e-commerce platform built at Bahiz Technology. Includes product pages, cart, search, checkout flows, order management, and Arabic/English localization with RTL/LTR support.',
+
+        tags: ['Nuxt.js', 'Vue 3', 'Pinia', 'Bootstrap', 'REST APIs', 'Axios'],
+
     emoji: '🛍️',
     gradient: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
     live: 'https://www.scraapypro.sa/',
@@ -412,12 +414,12 @@ const projects = [
     github: 'https://github.com/yousefkhaled127/DashFlow',
   },
   {
-    title: 'Scraapy — E-Commerce Platform',
-    description: 'Full e-commerce platform built at Bahiz Technology. Includes product pages, cart, search, checkout flows, order management, and Arabic/English localization with RTL/LTR support.',
-    tags: ['Nuxt.js', 'Vue 3', 'Pinia', 'Bootstrap', 'REST APIs', 'Axios'],
+    title: 'ATELIER — E-Commerce Fashion',
+    description: 'A curated fashion e-commerce platform with product listings, sale badges, ratings & reviews, and a clean minimal UI. Built with a focus on elegant shopping experience and responsive design.',
+    tags: ['Vue 3', 'Nuxt.js', 'Pinia', 'Bootstrap', 'REST APIs'],
     emoji: '🛒',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    live: 'https://www.scraapypro.sa/',
+    live: 'https://e-commerce-mocha-phi-67.vercel.app/',
     github: 'https://github.com/yousefkhaled127/E-commerce',
   },
   {
